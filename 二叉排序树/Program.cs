@@ -13,10 +13,10 @@ namespace 二叉排序树
 
         static void Main(string[] args)
         {
-            int[] datas = { 9,2,6,3,1,22,8,55,77,33 };
+            int[] datas = { 1,2,3,4,5,6,7,8,9 };
             Node head = null;
             CreateOrderTree(ref head, datas);
-            Delete(ref head, 33);
+            Delete(ref head, 6);
             PrintMid(head);//1 2 3 6 8 9 22 55 77
             Console.ReadKey();
         }
